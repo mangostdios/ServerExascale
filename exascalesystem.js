@@ -6,7 +6,7 @@ function startCalc(data) {
 exascaleAJAX.post("serverName0","password",data);
 var lol = [];
 for(var i=0; i<data.length; i++) {
-lol.push(0);
+lol.push(1);
 }
 exascaleAJAX.post("serverName2","password",0);
 }
